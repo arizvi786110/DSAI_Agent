@@ -3,7 +3,6 @@ from datetime import datetime
 
 def run_agent():
     days_of_week= datetime.today().strftime("%A")
-    current_time= datetime.today().strftime("%H%M")
     graph= build_graph()
     graph.invoke({
         "day_of_week":days_of_week,

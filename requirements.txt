@@ -5,3 +5,5 @@ langchain-community
 requests
 python-dotenv
 schedule
+pillow
+cloudinary
